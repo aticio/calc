@@ -1,10 +1,6 @@
 #!/usr/bin/env python
 
 """Tests for `calc` package."""
-
-import pytest
-
-
 from calc.calc import Calc
 
 
@@ -32,12 +28,12 @@ def test_subtract_two_numbers():
     c = Calc()
 
     res = c.sub(10, 3)
-    assert res ==7
+    assert res == 7
 
 
 def test_mul_two_numbers():
     c = Calc()
 
     res = c.mul(6, 4)
-    
+
     assert res == 24
